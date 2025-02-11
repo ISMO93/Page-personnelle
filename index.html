@@ -1,0 +1,27 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page Personnelle</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>Bienvenue sur ma page personnelle</header>
+    <div class="container">
+      <div class="section propos" onclick="window.location.href='propos.html'">
+        <h2>À propos de moi</h2>
+      </div>
+      <div
+        class="section passion"
+        onclick="window.location.href='passion.html'"
+      >
+        <h2>Ma Passion</h2>
+      </div>
+      <button class="btn" onclick="afficherMessage()">Cliquez ici</button>
+      <p id="message">Merci d'avoir visité ma page !</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
